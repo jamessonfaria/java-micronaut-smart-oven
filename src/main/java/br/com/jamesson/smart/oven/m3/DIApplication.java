@@ -1,6 +1,7 @@
-package br.com.jamesson.smart.oven.m3.beans;
+package br.com.jamesson.smart.oven.m3;
 
 
+import br.com.jamesson.smart.oven.m3.beans.Oven;
 import io.micronaut.context.BeanContext;
 
 public class DIApplication {
