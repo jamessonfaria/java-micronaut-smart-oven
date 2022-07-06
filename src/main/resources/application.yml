@@ -5,3 +5,9 @@ netty:
   default:
     allocator:
       max-order: 3
+
+lights:
+  default:
+    color: red
+    dim: 80
+    enabled: true
