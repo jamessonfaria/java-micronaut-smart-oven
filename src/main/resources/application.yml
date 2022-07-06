@@ -11,3 +11,17 @@ lights:
     color: red
     dim: 80
     enabled: true
+
+sensor:
+  thresholds:
+    temp      : 550
+    humidity  : 95
+    fan-speed : 1500
+
+updates:
+  one:
+    url: https://updates.one
+  two:
+    url: https://updates.two
+  three:
+    url: https://updates.three

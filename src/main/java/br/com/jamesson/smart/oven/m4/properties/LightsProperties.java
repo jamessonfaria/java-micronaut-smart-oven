@@ -21,7 +21,7 @@ public class LightsProperties {
     //@Property(name = "lights.default.enabled")
     private Boolean enabled;
 
-    @PostConstruct
+    //@PostConstruct
     public void postConstruct(){
         System.out.println("Color: " + color);
         System.out.println("Dim: " + dim);
